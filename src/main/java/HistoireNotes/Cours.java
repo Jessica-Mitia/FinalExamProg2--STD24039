@@ -31,6 +31,6 @@ public class Cours {
                                 .filter(changementNote -> changementNote.getDate().isBefore(t))
                                 .toList();
         }
-
+        return credit / notes.size();
     }
 }
